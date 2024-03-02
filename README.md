@@ -1,4 +1,4 @@
-# A Word COunter Application Using Rust and WebAssembly
+# A Word Counter Application Using Rust and WebAssembly
 
 This is a practice project that showcases a Word Counter application written in Rust. The binary is first compiled as a regular Rust project. Then we try to compile this application into a WASI module using **wasm32-wasi** target and see if we can run it from **wasmtime**. 
 **WASI (WebAssembly System Interface)** targets expands on the freestanding WebAssembly compilation targets to enhance the capablities of WebAssembly sandboxed module by providing a modular system interface to perform a subset of system operations in a secure way.
